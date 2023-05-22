@@ -33,7 +33,7 @@ TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", should_prompt=True)
 # array to store the channel ID who are authorized to use the bot
 AUTH_CHANNEL = int(get_config(
         "AUTH_CHANNEL",
-        "-100",
+        "-1001654926016",
         should_prompt=True
     )
 )
@@ -66,7 +66,7 @@ DEFAULT_START_TEXT = (
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
-    "START_OTHER_USERS_TEXT",
+    "DEFAULT_START_TEXT",
     0
 ))
 # check online status of your bot
@@ -109,7 +109,7 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "The Person is <b>uunbanned</b>.\n\n"
+        "The Person is <b>unbanned</b>.\n\n"
         "<u>Ban reason was</u>: <code>{reason}</code>"
     )
 )
