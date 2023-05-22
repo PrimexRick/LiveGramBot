@@ -60,9 +60,9 @@ UN_BAN_COMMAND = get_config("UN_BAN_COMMAND", "unban")
 START_COMMAND = get_config("START_COMMAND", "start")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "Hay, silahkan ketik pesanmu dibawah ini, nanti saya akan membalasanya Jika sudah online.\n"
+    "Hello Fellow shinobi, This is the right place if you're here to contact my owner .\n"
     "───────────────────────\n"
-    "©Manage by : @Vckyouubitch"
+    "©Managed by : @PrimesDivision"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
@@ -73,8 +73,8 @@ START_OTHER_USERS_TEXT = int(get_config(
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
-        "Sistem berfungsi <b>master</b>\n"
-        "Jangan lupa join [Channel Support](https://t.me/Vckyouuu)"
+        "System Active <b>master</b>\n"
+        "Join Support  [Channel Support](https://t.me/primesdivision)"
     )
 )
 # message to indicate,
@@ -83,8 +83,8 @@ ONLINE_CHECK_START_TEXT = get_config(
 DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
-        "Pesan ini sudah dihapus\n"
-        "Jangan lupa Join [Channel Support](https://t.me/Vckyouuu)"
+        "Person deleted the message\n"
+        "For updates join [Support](https://t.me/primextech)"
     )
 )
 # IDEKWBYRW
@@ -116,7 +116,7 @@ IS_UN_BANED_MESSAGE_TEXT = get_config(
 # message to show if bot was blocked by user
 BOT_WS_BLOCKED_BY_USER = get_config(
     "BOT_WS_BLOCKED_BY_USER",
-    "Bot diblokir oleh pengguna ini."
+    "Bot Blocked by User"
 )
 # path to store LOG files
 LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "NoPMsBot.log")
