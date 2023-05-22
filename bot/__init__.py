@@ -74,7 +74,7 @@ ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
         "System Active <b>master</b>\n"
-        "Join Support  [Channel Support](https://t.me/primesdivision)"
+        "Join Support  @primextech"
     )
 )
 # message to indicate,
@@ -84,7 +84,7 @@ DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
         "Person deleted the message\n"
-        "For updates join [Support](https://t.me/primextech)"
+        "For updates join the support channel at @primesdivision"
     )
 )
 # IDEKWBYRW
@@ -96,8 +96,8 @@ DERP_USER_S_TEXT = get_config(
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>banned</b> forever.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "The Person is <b>banned</b> forever.\n\n"
+        "<u>Ban reason </u>: <code>{reason}</code>"
     )
 )
 # IDEKWBYRW
@@ -109,8 +109,8 @@ REASON_DE_LIMIT_ER = get_config(
 IS_UN_BANED_MESSAGE_TEXT = get_config(
     "IS_UN_BANED_MESSAGE_TEXT",
     (
-        "Kamu telah di <b>un-banned</b>.\n\n"
-        "<u>Alasan</u>: <code>{reason}</code>"
+        "The Person is <b>uunbanned</b>.\n\n"
+        "<u>Ban reason was</u>: <code>{reason}</code>"
     )
 )
 # message to show if bot was blocked by user
